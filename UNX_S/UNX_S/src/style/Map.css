@@ -1,0 +1,84 @@
+/* **** For the MAP OF UNEMPLOYMENT ***** */
+  
+#mapsection {
+    width: 50%;
+    height: auto;
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 2;
+}
+
+path:hover {
+    fill: purple;
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.6s;
+}
+
+polygon:hover {
+    fill: purple;
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+} 
+
+.county-map-container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+}   
+
+.map--section {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+}
+
+.download-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.download--button {
+    display: block;
+    margin-left: auto;
+    margin-right: 2px;
+    margin-bottom: 50%;
+    padding: 20px 30px;
+    background-color: #147487;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download--button:hover {
+    background-color: #007B9A; 
+}
+
+.map--section--heading {
+    font-size: 18px;
+    font-family: PT Serif;
+    margin-right: 40px;
+}
+
+.button--header {
+    font-size: 20px;
+    font-family: Inter;
+    color: #147487;
+}
+
+@media screen and (max-width: 600px) {
+  .county-map-container3 {
+    width: 100%;
+  }
+}

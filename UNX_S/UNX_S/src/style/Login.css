@@ -1,0 +1,71 @@
+.login-container {
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  border-radius: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 40px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.login-button {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 5px 5px;
+  background-color: transparent;
+  height: 40px;
+  border: 2px solid #147487;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: 0.2s;
+  cursor: pointer;
+  outline: none;
+}
+.login-button:hover {
+  background-color: #147487;
+  color: white;
+}
+
+.forgotten-password {
+  margin: 0;
+  color: #147487;
+}
+
+.login-title {
+  font-size: 3rem;
+  margin-top: 0px;
+}
+
+.login-input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  transition: 0.2s;
+  font-size: 1rem;
+}
+.login-input:focus {
+  outline: none;
+  border-bottom: 2px solid #147487;
+}
+
+.login-content-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 30px;
+}
