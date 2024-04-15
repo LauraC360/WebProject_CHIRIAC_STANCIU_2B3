@@ -1,0 +1,67 @@
+.grid-unemploy {
+  display: grid;
+  grid-template-areas:
+    "gender data data"
+    "gender reports tracker"
+    "map map tracker"
+    "map map age-reports";
+  width: 85%;
+  height: auto;
+  gap: 20px;
+  padding: 10px;
+  grid-template-rows: repeat(4, 300px);
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.content-container {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-top: 160px;
+  background-color: white;
+}
+
+.page-unemploy-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+#gender-reports {
+  background-image: url(./../../public/unemploymentPage/genders.jpg);
+  grid-area: gender;
+}
+#all-collected-data {
+  background-image: url(./../../public/unemploymentPage/all_data.jpg);
+  grid-area: data;
+}
+#community-reports {
+  background-image: url(./../../public/unemploymentPage/community.jpg);
+  grid-area: reports;
+}
+#map {
+  background-image: url(./../../public/unemploymentPage/roo.jpg);
+  grid-area: map;
+}
+#time-tracker {
+  background-image: url(./../../public/unemploymentPage/infographic.jpg);
+  grid-area: tracker;
+}
+#age-reports {
+  background-image: url(./../../public/unemploymentPage/old_man.jpg);
+  grid-area: age-reports;
+}
+
+.grid-element {
+  text-decoration: none;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 20px;
+}

@@ -1,0 +1,111 @@
+/* **** For the MAP OF UNEMPLOYMENT ***** */
+  
+#mapsection {
+    width: 50%;
+    height: auto;
+    fill: #ccc;
+    stroke: #333;
+    stroke-width: 2;
+}
+
+path:hover {
+    fill: purple;
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.6s;
+}
+
+polygon:hover {
+    fill: purple;
+    stroke: red;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+} 
+
+.county-map-container3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    text-align: center;
+}   
+
+.map--section {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    max-width: 1000px;
+}
+
+.download-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.download--button {
+    display: block;
+    margin-left: auto;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    background-color: #147487;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download--button:hover {
+    background-color: #007B9A;
+    cursor: pointer; 
+}
+
+.download--button-png {
+    display: block;
+    margin-left: auto;
+    margin-right: 2px;
+    margin-bottom: 30%;
+    padding: 20px 30px;
+    background-color: #147487;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download--button-png:hover {
+    background-color: #007B9A;
+    cursor: pointer; 
+}
+
+.map--section--heading {
+    font-size: 20px;
+    margin-right: 40px;
+    padding-top: 160px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.button--header {
+    font-size: 20px;
+    font-family: Inter;
+    color: #147487;
+}
+
+@media screen and (max-width: 600px) {
+  .county-map-container3 {
+    width: 100%;
+  }
+}

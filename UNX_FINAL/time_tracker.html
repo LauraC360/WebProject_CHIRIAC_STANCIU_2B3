@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./src/style/Time_tracker.css">
+    <link rel="stylesheet" href="./src/style/Home/HomeHeader.css">
+    <link rel="stylesheet" href="global.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+
+    <title>Time Tracker - UNX Romania</title>
+</head>
+
+<body>
+    <div class="page-map-container">
+
+        <div class="home-header">
+            <h2 class="header-title">UNX ROMANIA</h2>
+            <nav class="nav-bar">
+                <a class="nav-button" href="home.html">Home</a>
+                <a class="nav-button" href="unemploymentData.html">Unemployment Data</a>
+                <a class="nav-button" href="unemploymentData.html">About</a>
+                <a class="nav-button" href="home.html">Contact</a>
+            </nav>
+            <div class="account-info-container">
+                <button class="login-button" onclick="navigateToLogin()">Login</button>
+                <button class="register-button" onclick="navigateToRegister()">Register</button>
+            </div>
+        </div>
+
+        <div class="content-container">
+            <h2> Unemployment in Romania 1999 - 2023 </h2>
+            
+            <div class="main-container">
+                <div class="data">
+                    <div class="head">
+                            <h3>Time Report</h3>
+                        <div class="chart">
+                            <div id="chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-more">
+                <button class="filled-button">More Timestamped Data</button>
+            </div>
+
+            <div class="footer">
+                <div class="rights">
+                    <p class="right-text">© 2024 UNX Romania, All Rights Reserved.</p>
+                    <div class="icon-container">
+                        <img class="icon" src="public/twitter.png" alt="Twitter"/>
+                        <img class="icon" src="public/instagram.png" alt="Instagram"/>
+                        <img class="icon" src="public/facebook.png" alt="Facebook"/>
+                    </div>
+                </div>
+                <div class="link-container">
+                    <div class="column-container">
+                        <p>Product</p>
+                        <a href="">Features</a>
+                        <a href="">Pricing</a>
+                        <a href="">Tutorials</a>
+                        <a href="">Releases</a>
+                    </div>
+                    <div class="column-container">
+                        <p>Company</p>
+                        <a href="">About</a>
+                        <a href="">Careers</a>
+                        <a href="">Contact</a>
+                        <a href="">Blog</a>
+                    </div>
+                    <div class="column-container">
+                        <p>Support</p>
+                        <a href="">Terms of service</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">Legal</a>
+                        <a href="">Help center</a>
+                    </div>
+                    <div class="column-container">
+                        <p>Resources</p>
+                        <a href="">Blog</a>
+                        <a href="">Pricing</a>
+                        <a href="">Service</a>
+                        <a href="">Product</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script src="./src/scripts/Home.js"></script>
+    <script src="./src/scripts/Time_tracker.js"></script>
+</body>
+
+</html>

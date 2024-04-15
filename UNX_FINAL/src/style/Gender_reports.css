@@ -1,0 +1,164 @@
+/* .page-gender-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+} */
+
+.content-container {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-top: 110px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 24px;
+  margin-right: 24px;
+  margin-left: 24px;
+  flex-direction: row;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 200px 100px;
+  background: #F5F4F4;
+  box-shadow: 5px 5px 10px #666660, -5px -5px 10px #fffefe;
+}
+
+.card {
+  border-bottom-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+
+.color {
+  width: 50%;
+  height: 120px;
+  background: #147487;
+  box-shadow: 5px 5px 10px #bbbbb2, -8px -8px 10px #ffffff;
+  border-bottom-right-radius: 85px;
+  border-top-left-radius: 20px;
+  padding-top: 1px;
+  position: relative;
+}
+
+.circle {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  background: #F5F4F4;
+  box-shadow: 5px 5px 10px #1b363c, -5px -5px 10px #f3f0f0;
+  position: relative;
+  top: -32px;
+  left: -14px;
+}
+
+.circle h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #147487;
+}
+
+h1 .fa-female {
+  font-size: 60px;
+  color: #147487;
+}
+
+.content {
+  width: 200px;
+  height: 200px;
+  margin: -30px 50px;
+  position: relative;
+  bottom: 20px;
+  left: 5px;
+}
+
+.content img {
+  width: 80px;
+  height: 80px;
+  margin-left: 105px;
+  margin-top: -20px;
+}
+
+.content h4 {
+  margin: 5px 0 0 60px;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.effect-1:hover {
+  background-color: #147487;
+  color: white;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+.content p {
+  text-align: right;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 8px;
+}
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  margin: 200px 100px;
+  background: #F5F4F4;
+  box-shadow: 5px 5px 10px #666660, -5px -5px 10px #fffefe;
+  margin-top: 200px;
+}
+
+.color2 {
+  width: 50%;
+  height: 120px;
+  background: #0A3A44;
+  box-shadow: 5px 5px 10px #bbbbb2, -8px -8px 10px #ffffff;
+  border-bottom-right-radius: 85px;
+  border-top-left-radius: 20px;
+  padding-top: 1px;
+  position: relative;
+}
+
+.shadow {
+  box-shadow: 5px 5px 10px #041116, -5px -5px 10px #f3f0f0;
+}
+
+.shadow h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #0A3A44;
+}
+
+h1 .fa-male {
+  font-size: 60px;
+  color: #0A3A44;
+}
+
+.effect-2:hover {
+  background-color: #0A3A44;
+  color: white;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+@media only screen and (max-width: 300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box2 {
+    max-width: 50px;
+  }
+}
