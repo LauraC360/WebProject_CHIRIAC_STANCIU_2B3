@@ -59,6 +59,11 @@
         <li><a href="#system-features">4. Caracteristici ale sistemului</a>
         </li>
         <li><a href="#non-functional">5.Funcționalități pentru protecție și securitate</a>
+            <ul>
+                <li><a href="#safety">5.1 Protecția datelor</a></li>
+                <li><a href="#security">5.2 Securizarea datelor</a></li>
+                <li><a href="#software-attributes">5.3 Calitățile Software </a></li>
+            </ul>
         </li>
     </ul>
     <div role="contentinfo">
@@ -84,6 +89,11 @@
               <meta content="Stanciu" property="schema:familyName">
               <span property="schema:name">Stanciu Sebastian</span>
             </span>
+                    <ul>
+                        <li property="schema:roleContactPoint" typeof="schema:ContactPoint">
+                            <a href="mailto:tudor.stefan.paulet@gmail.com" property="schema:email">sebastian.stanciu.20@gmail.com</a>
+                        </li>
+                    </ul>
             </ul>
         </section>
     </div>
