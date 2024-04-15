@@ -41,8 +41,6 @@
                         <li><a href="#nav-bar">3.1.1 Bara de navigație </a></li>
                         <li><a href="#login-page">3.1.2 Pagina de autentificare </a></li>
                         <li><a href="#signup-page">3.1.3 Pagina de înregistrare </a></li>
-                        <li><a href="#sendMail-page">3.1.4 Pagina de trimitere email pentru resetarea parolei</a></li>
-                        <li><a href="#resetPassword-page">3.1.5 Pagina de resetarea parolei</a></li>
                         <li><a href="#home-page">3.1.6 Pagina de acasă </a></li>
                         <li><a href="#gender-age-reports">3.1.7 Paginile de age și gender reports</a></li>
                         <li><a href="#timeTracking">3.1.8 Pagina cu graficul</a></li>
