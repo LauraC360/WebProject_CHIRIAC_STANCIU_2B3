@@ -338,18 +338,16 @@
                 <h4>3.2 Interfața Hardware</h4>
                 <p>
                     Acest produs nu necesită interfețe hardware, funcționând pe orice platformă (calculatoare,
-                    laptopuri,
-                    telefoane etc.), care are instalată un browser.
+                    laptopuri, telefoane etc.), care are instalată un browser.
                 </p>
             </section>
             <section id="software-interface">
                 <h4>3.3 Interfața Software</h4>
                 <p>
                     Cerințele minime de software includ un browser funcțional, compatibil cu HTML5 și cu JavaScript.
-                <h5>Postgres Database</h5>
-                Aceasta reprezintă baza de date în care stocăm informații despre fiecare utilizator, intrebarile,
-                chestionarele si
-                raspunsurile la acestea.
+                <h5>MySql Database</h5>
+                Aceasta reprezintă baza de date în care stocăm informații despre fiecare utilizator, fiecare județ, despre fiecare document de pe site și sursă de informație, dar 
+                și despre datele înregistrate de utilizatori. 
             </section>
             <section id="communication-interface">
                 <h4>3.4 Interfața de comunicare</h4>
