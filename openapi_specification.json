@@ -1,0 +1,268 @@
+openapi: 3.0.0
+info:
+  title: Webproj
+  version: 1.0.0
+servers:
+  - url: http://localhost
+paths:
+  /webproj/api/county/monthly-stats/galati/March/2024:
+    get:
+      tags:
+        - default
+      summary: GalatiData View Button
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/county/files/pdf/March/2024/galati:
+    get:
+      tags:
+        - default
+      summary: GalatiData Download Button PDF
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/county/files/csv/March/2024/galati:
+    get:
+      tags:
+        - default
+      summary: GalatiData Download Button CSV
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/county/all/files/pdf/March/2024:
+    get:
+      tags:
+        - default
+      summary: AllData Download Button
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/county/all/monthly-stats/March/2024:
+    get:
+      tags:
+        - default
+      summary: AllData View Button
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/community-reports/new:
+    post:
+      tags:
+        - default
+      summary: CommunityReports Create New (Submit Button)
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                username:
+                  type: string
+                  example: testt
+                email:
+                  type: string
+                  example: postman@gmail.com
+                report:
+                  type: string
+                  example: test report
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/community-reports/admin/:
+    put:
+      tags:
+        - default
+      summary: '[AdminPanel] CommunityReports Put New Reports'
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                id:
+                  type: integer
+                  example: '1'
+                username:
+                  type: string
+                  example: putmethod
+                email:
+                  type: string
+                  example: put@gmail.com
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    get:
+      tags:
+        - default
+      summary: '[AdminPanel] CommunityReports Get Reports'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    post:
+      tags:
+        - default
+      summary: '[AdminPanel] CommunityReports Post New Reports'
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                username:
+                  type: string
+                  example: blablabla
+                email:
+                  type: string
+                  example: bla@gmail.com
+                report:
+                  type: string
+                  example: blablabla
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    delete:
+      tags:
+        - default
+      summary: '[AdminPanel] CommunityReports Delete Reports'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/county/all/admin/April/2023:
+    post:
+      tags:
+        - default
+      summary: '[AdminPanel] CountyDB Post'
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                JUDET:
+                  type: string
+                  example: JudetNou
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    get:
+      tags:
+        - default
+      summary: '[AdminPanel] CountyDB Get Data'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    put:
+      tags:
+        - default
+      summary: '[AdminPanel] CountyDB PUT'
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                JUDET:
+                  type: string
+                  example: DOLJ
+                Sub_25_ani:
+                  type: integer
+                  example: '600'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    delete:
+      tags:
+        - default
+      summary: '[AdminPanel] CountyDB Delete'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+  /webproj/api/users/admin/:
+    post:
+      tags:
+        - default
+      summary: '[AdminPanel] Users DB Post New User'
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                email:
+                  type: string
+                  example: testemail@gmail.com
+                password:
+                  type: string
+                  example: pass123
+                repeat-password:
+                  type: string
+                  example: pass123
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    get:
+      tags:
+        - default
+      summary: '[AdminPanel] Users DB Get Users'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    put:
+      tags:
+        - default
+      summary: '[AdminPanel] Users DB Put Data to User'
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              properties:
+                id:
+                  type: integer
+                  example: '1'
+                email:
+                  type: string
+                  example: adminnnn@gmail.com
+                password:
+                  type: string
+                  example: pass123
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
+    delete:
+      tags:
+        - default
+      summary: '[AdminPanel] Users DB Delete User'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json: {}
