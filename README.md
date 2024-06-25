@@ -357,15 +357,15 @@
             </section>
         <section id="system-features">
             <p>
-            <h2> Main System Features </h2>
-                    <ul>
-                        <li><b>Access different types of datas, with different forms of visualisation </b> -  this feature allows the users to access data and view it in charts, in a cartographic format.</li>
-                        <li><b>Export data </b> - users can export all data from website, mainly in the PNG/PDF, SVG, CSV formats for different types of data. This is one of the top priorities as a feature from our app.</li>
-                        <li><b>Report data - ONLY FOR LOGGED IN USERS </b> - users can make reports about the website's content, as a form of feedback regarding the website's data.</li>
-                        <li><b>Chart visualisation with customized data analysis</b> - users can select what elements they want to see in a certain chart and what to not see. They can even choose to see an empty canvas if they want.</li>
-                    </ul>
+            <h2> Caracteristici principale ale sistemului </h2>
+                <ul>
+                    <li><b>Acces la diferite tipuri de date, cu diverse forme de vizualizare</b> - această caracteristică permite utilizatorilor să acceseze date și să le vizualizeze în grafice, în format cartografic.</li>
+                    <li><b>Export de date</b> - utilizatorii pot exporta toate datele de pe site, în principal în formatele PNG/PDF, SVG, CSV pentru diferite tipuri de date. Aceasta este una dintre prioritățile de top ca funcționalitate a aplicației noastre.</li>
+                    <li><b>Raportare date - DOAR PENTRU UTILIZATORII AUTENTIFICAȚI</b> - utilizatorii pot face rapoarte despre conținutul site-ului, ca formă de feedback privind datele de pe site.</li>
+                    <li><b>Vizualizare grafică cu analiză personalizată a datelor</b> - utilizatorii pot selecta ce elemente doresc să vadă într-un anumit grafic și ce nu doresc să vadă. Ei pot chiar alege să vadă un canvas gol, dacă doresc.</li>
+                </ul>
             </p>
-        </section>
+        </section>    
         <section id="non-functional">
             <p>
                 <h2> Funcționalități pentru protecție și securitate </h2>
