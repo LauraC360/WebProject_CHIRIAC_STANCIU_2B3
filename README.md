@@ -154,7 +154,8 @@
         <section id="product-perspective">
             <h4>2.1 Perspectiva produsului</h4>
             <p>UNX Romania este o aplicație dezvoltată în cadrul cursului de Tehnologii Web,
-                menită să ofere informații relevante despre șomajul din România și despre tendințele din această sferă.
+                menită să ofere informații relevante despre șomajul din România și despre tendințele din această sferă.</p>
+            <h3>Documentația API-ului aplicației: https://documenter.getpostman.com/view/35319217/2sA3XWdyhK</h3>
         </section>
         <section id="product-functions">
             <h4>2.2 Funcționalitățile produsului</h4>
