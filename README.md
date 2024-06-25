@@ -355,6 +355,17 @@
                     Aplicația necesită o conexiune la internet. Standardul de comunicare care va fi utilizat este HTTP.
                 </p>
             </section>
+        <section id="#system-features"> 
+            <p>
+            <h2> Main System Features </h2>
+                    <ul>
+                        <li><b>Access different types of datas, with different forms of visualisation </b> -  this feature allows the users to access data and view it in charts, in a cartographic format.</li>
+                        <li><b>Export data </b> - users can export all data from website, mainly in the PNG/PDF, SVG, CSV formats for different types of data. This is one of the top priorities as a feature from our app.</li>
+                        <li><b>Report data - ONLY FOR LOGGED IN USERS </b> - users can make reports about the website's content, as a form of feedback regarding the website's data.</li>
+                        <li><b>Chart visualisation with customized data analysis</b> - users can select what elements they want to see in a certain chart and what to not see. They can even choose to see an empty canvas if they want.</li>
+                    </ul>
+            </p>
+        </section>
 </article>
 </body>
 </html>
